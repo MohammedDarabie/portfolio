@@ -8,14 +8,15 @@ function Contact() {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_ak6catg",
-        "template_duowsn4",
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
         form.current,
-        "CfM6n2nn2W6W8VUa2"
+        process.env.REACT_APP_PUBLIC_KEY
       )
       .then(
         (result) => {
           console.log(result.text);
+          document.getElementById("form").reset();
           toast.success("Message Sent");
         },
         (error) => {
@@ -105,21 +106,24 @@ function Contact() {
         <div className="w-screen flex justify-center">
           <div className="w-[50%] lg:w-full p-10 shadow-2xl bg-gray-50">
             <h1 className="text-2xl font-semibold">Contact :</h1>
-            <form ref={form} onSubmit={sendEmail}>
+            <form ref={form} onSubmit={sendEmail} id="form">
               <input
                 name="user_name"
+                id="name"
                 type="text"
                 className="w-full border-2 border-gray-400 rounded p-1 shadow-lg mt-5"
                 placeholder="Name"
               ></input>
               <input
                 type="email"
+                id="email"
                 name="user_email"
                 className="w-full border-2 border-gray-400 rounded p-1 shadow-lg mt-5"
                 placeholder="Email"
               ></input>
               <textarea
                 type="text"
+                id="textarea"
                 name="message"
                 className=" resize-none w-full border-2 border-gray-400 rounded p-1 shadow-lg mt-5"
                 placeholder="Body"
