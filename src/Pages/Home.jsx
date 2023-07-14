@@ -1,5 +1,8 @@
 import React from "react";
 import Layout from "../Components/Layout";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 function Home() {
   return (
     <Layout>
@@ -11,11 +14,14 @@ function Home() {
           items-center border-4 border-white transform rotate-[10deg] md:rotate-0 md:border-0
            bg-theme mx-10 "
           >
-            <div className="">
+            <div className="" data-aos="fade-down-right">
               <img className="" src="./img/developer.png" alt="home_pic"></img>
             </div>
-            <div className="font-semibold text-white md:px-5">
-              <h1 className="text-7xl md:text-4xl ">
+            <div
+              data-aos="fade-right"
+              className="font-semibold text-white md:px-5"
+            >
+              <h1 className="text-7xl md:text-4xl md:-mt-52">
                 Hii , I'm <b className="text-yellow-500">Mohammed</b>
               </h1>
               <h1 className="text-4xl md:text-2xl">
@@ -25,7 +31,12 @@ function Home() {
           </div>
         </div>
         {/* Technologies Section */}
-        <div className="mt-20">
+        <div
+          className="mt-20"
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="5500"
+        >
           <h1 className="text-6xl md:text-4xl text-blue-800 font-bold text-center my-10">
             <i>Technologies I use</i>
           </h1>
@@ -53,7 +64,13 @@ function Home() {
           </div>
         </div>
         {/* JavaScript Buff */}
-        <div className="my-20">
+        <div
+          data-aos="fade-left"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="5500"
+        >
+          >
           <div className="text-center h-52 bg-theme">
             <h1 className="text-6xl md:text-4xl text-white font-bold text-center p-10 ">
               <i> You're Right, Iam a JavaScript Buff </i>
@@ -84,7 +101,10 @@ function Home() {
           </div>
         </div>
         {/*  Dev Stack */}
-        <div className="my-20">
+        <div className="my-20" data-aos="fade-right"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="1500">
           <div className="text-center h-52 bg-theme">
             <h1 className="text-6xl md:text-4xl text-white font-bold text-center p-10">
               <i> My Dev Stack </i>
@@ -145,8 +165,8 @@ function Home() {
               <img src="./img/blop.png" alt="Blop" className="m-auto"></img>
             </div>
             <div className="bg-black p-5 rounded-lg text-white absolute top-32 right-[40%] md:right-[20%] flex flex-col items-center justify-center">
-              <h1 className="text-2xl font-bold text-left">
-                Hello , أهلا و سهلا{" "}
+              <h1 className="text-2xl font-bold text-left ">
+                Hello , أهلا و سهلا
               </h1>
               <hr></hr>
               <pre className="text-xl my-5 font-mont ">

@@ -13,13 +13,13 @@ function Header() {
       title: "Projects",
       key: "/projects",
     },
+    // {
+    //   title: "Hobbies",
+    //   key: "/hobbies",
+    // },
     {
       title: "Contact",
       key: "/contact",
-    },
-    {
-      title: "Hobbies",
-      key: "/hobbies",
     },
   ];
   const path = window.location.pathname;
