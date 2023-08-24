@@ -41,7 +41,7 @@ function Projects() {
                   <a
                     href={project.link}
                     className="border-2 rounded-lg border-white py-2 px-5 text-white bg-green-500 mt-5"
-                    target="_blank"
+                    target="_blank" rel="noreferrer"
                   >
                     Repo
                   </a>
