@@ -12,6 +12,12 @@ const projectData = [
     description: "Build Compny Profile",
     link: "https://effortless-lokum-37db44.netlify.app",
   },
+  {
+    title: "MovieList",
+    image: "./img/logo.svg",
+    description: "MovieList Website",
+    link: "https://classy-genie-dc6900.netlify.app/",
+  },
 ];
 
 export default projectData;

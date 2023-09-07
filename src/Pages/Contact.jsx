@@ -34,6 +34,7 @@ function Contact() {
           <a
             href="https://twitter.com/Mohammed_ihsan_"
             target="_blank"
+            rel="noreferrer"
             className="flex flex-col items-center justify-center hover:shadow-2xl "
           >
             <img
@@ -48,6 +49,7 @@ function Contact() {
           <a
             href="https://wa.me/966552220151"
             target="_blank"
+            rel="noreferrer"
             className="flex flex-col items-center justify-center hover:shadow-2xl"
           >
             <img
@@ -62,6 +64,7 @@ function Contact() {
           <a
             href="https://www.linkedin.com/in/mohammed-darabie-13603a232/"
             target="_blank"
+            rel="noreferrer"
             className="flex flex-col items-center justify-center hover:shadow-2xl"
           >
             <img
@@ -76,6 +79,7 @@ function Contact() {
           <a
             href="https://www.instagram.com/darabie3/"
             target="_blank"
+            rel="noreferrer"
             className="flex flex-col items-center justify-center hover:shadow-2xl"
           >
             <img

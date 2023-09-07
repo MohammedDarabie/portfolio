@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaMailBulk, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaLinkedin,  FaGithub, FaTwitter } from "react-icons/fa";
 function Footer() {
   return (
     <>
@@ -19,13 +19,14 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/in/mohammed-darabie-13603a232/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FaLinkedin size={50} />
               </a>
-              <a href="https://github.com/MohammedDarabie" target="_blank">
+              <a href="https://github.com/MohammedDarabie" target="_blank" rel="noreferrer">
                 <FaGithub size={50} />
               </a>
-              <a href="https://twitter.com/Mohammed_ihsan_" target="_blank">
+              <a href="https://twitter.com/Mohammed_ihsan_" target="_blank" rel="noreferrer">
                 <FaTwitter size={50} />
               </a>
             </div>
