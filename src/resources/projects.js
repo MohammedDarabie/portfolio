@@ -18,6 +18,12 @@ const projectData = [
     description: "MovieList Website",
     link: "https://classy-genie-dc6900.netlify.app/",
   },
+  {
+    title: "E-Book",
+    image: "./img/E-book.svg",
+    description: "MovieList Website",
+    link: "https://e-book-demo.netlify.app/",
+  },
 ];
 
 export default projectData;
