@@ -43,7 +43,7 @@ function Projects() {
                     className="border-2 rounded-lg border-white py-2 px-5 text-white bg-green-500 mt-5"
                     target="_blank" rel="noreferrer"
                   >
-                    Repo
+                    View
                   </a>
                 </div>
               </div>

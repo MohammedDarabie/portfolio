@@ -1,12 +1,5 @@
 const projectData = [
   {
-    title: "RealEState",
-    image: "./img/realestate.png",
-    description:
-      "An RealEState project developed by me using React and Tailwind css and used Firebase Auth",
-    link: "https://github.com/MohammedDarabie/RealeState-Clone",
-  },
-  {
     title: "Company Website",
     image: "./img/itec-logo.jpg",
     description: "Build Compny Profile",
@@ -23,6 +16,12 @@ const projectData = [
     image: "./img/E-book.svg",
     description: "MovieList Website",
     link: "https://e-book-demo.netlify.app/",
+  },
+  {
+    title: "TopLine",
+    image: "./img/topline.jpg",
+    description: "TopLine Website",
+    link: "https://topline-sa.netlify.app",
   },
 ];
 
