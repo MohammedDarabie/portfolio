@@ -17,12 +17,12 @@ const projectData = [
     description: "MovieList Website",
     link: "https://e-book-demo.netlify.app/",
   },
-  // {
-  //   title: "TopLine",
-  //   image: "./img/topline.jpg",
-  //   description: "TopLine Website",
-  //   link: "https://topline-sa.netlify.app",
-  // },
+  {
+    title: "TopLine",
+    image: "./img/topline.jpg",
+    description: "TopLine Website",
+    link: "https://demo-tp.netlify.app/",
+  },
 ];
 
 export default projectData;
