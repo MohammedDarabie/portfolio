@@ -48,6 +48,16 @@ function Home() {
             />
             <img
               className="h-[250px] m-auto mt-20 animate-bounce"
+              src="./img/nodejs.gif"
+              alt="nodejs_logo"
+            />
+            <img
+              className="h-[250px] m-auto mt-20 animate-bounce"
+              src="./img/java.gif"
+              alt="java_logo"
+            />
+            <img
+              className="h-[250px] m-auto mt-20 animate-bounce"
               src="./img/js.png"
               alt="js_logo"
             ></img>
@@ -55,6 +65,16 @@ function Home() {
               className="h-[250px] m-auto mt-20 animate-bounce"
               src="./img/html.png"
               alt="html_logo"
+            ></img>
+            <img
+              className="h-[250px] m-auto mt-20 animate-bounce"
+              src="./img/mysql.gif"
+              alt="mysql_logo"
+            ></img>
+            <img
+              className="h-[250px] m-auto mt-20 animate-bounce"
+              src="./img/mongodb.gif"
+              alt="mongoDB"
             ></img>
             <img
               className="h-[250px] m-auto mt-20 animate-bounce"
@@ -70,7 +90,6 @@ function Home() {
           data-aos-offset="500"
           data-aos-duration="5500"
         >
-          >
           <div className="text-center h-52 bg-theme">
             <h1 className="text-6xl md:text-4xl text-white font-bold text-center p-10 ">
               <i> You're Right, Iam a JavaScript Buff </i>
@@ -101,10 +120,13 @@ function Home() {
           </div>
         </div>
         {/*  Dev Stack */}
-        <div className="my-20" data-aos="fade-right"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="500"
-     data-aos-duration="1500">
+        <div
+          className="my-20"
+          data-aos="fade-right"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="1500"
+        >
           <div className="text-center h-52 bg-theme">
             <h1 className="text-6xl md:text-4xl text-white font-bold text-center p-10">
               <i> My Dev Stack </i>
@@ -147,9 +169,10 @@ function Home() {
               <div className="text-right">
                 <h1 className="font-bold text-xl">Back-End/DB</h1>
                 <hr></hr>
-                <p className="font-semibold mt-2">Node JS</p>
+                <p className="font-semibold mt-2">Nest JS</p>
                 <p className="font-semibold mt-2">Express JS</p>
-                <p className="font-semibold mt-2">My SQL</p>
+                <p className="font-semibold mt-2">Spring</p>
+                <p className="font-semibold mt-2">MYSQL</p>
                 <p className="font-semibold mt-2">Mongo DB</p>
               </div>
             </div>
