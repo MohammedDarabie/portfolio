@@ -13,10 +13,6 @@ function Header() {
       title: "Projects",
       key: "/projects",
     },
-    // {
-    //   title: "Hobbies",
-    //   key: "/hobbies",
-    // },
     {
       title: "Contact",
       key: "/contact",
@@ -26,7 +22,7 @@ function Header() {
   return (
     <div className="text-white font-mont fixed top-0 left-0 right-0 z-50">
       <div
-        className={`flex justify-between items-center p-2 shadow-lg bg-theme ${
+        className={`flex justify-between items-center p-4 shadow-lg bg-theme ${
           showMenu === "" && "md:flex-col"
         }`}
       >
@@ -54,7 +50,7 @@ function Header() {
               <li
                 className={`list-none p-1 mx-6 ${
                   item.key === path
-                    ? "bg-white text-theme px-1 rounded-md mx-5 "
+                    ? "bg-white text-theme px-5 rounded-md mx-5 "
                     : ""
                 }`}
               >

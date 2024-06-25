@@ -30,7 +30,7 @@ function Contact() {
         <h1 className="text-4xl text-white font-mono text-center md:text-2xl">
           Socials
         </h1>
-        <div className=" grid md:grid-cols-2 grid-cols-5 w-full m-auto">
+        <div className="flex  justify-center items-center ">
           <a
             href="https://twitter.com/Mohammed_ihsan_"
             target="_blank"
@@ -76,21 +76,7 @@ function Contact() {
               LinkedIn
             </h1>
           </a>
-          <a
-            href="https://www.instagram.com/darabie3/"
-            target="_blank"
-            rel="noreferrer"
-            className="flex flex-col items-center justify-center hover:shadow-2xl"
-          >
-            <img
-              className="w-52"
-              src="./img/instagram-logo.png"
-              alt="twitterLogo"
-            ></img>
-            <h1 className="text-center text-2xl text-white font-semibold font-mono py-2 md:text-sm">
-              Instagram
-            </h1>
-          </a>
+         
           <a
             href="./cv.pdf"
             target="_blank"

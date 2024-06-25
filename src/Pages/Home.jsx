@@ -187,7 +187,7 @@ function Home() {
             <div className="h-full">
               <img src="./img/blop.png" alt="Blop" className="m-auto"></img>
             </div>
-            <div className="bg-black p-5 rounded-lg text-white absolute top-32 right-[40%] md:right-[20%] flex flex-col items-center justify-center">
+            <div className="bg-black p-5 rounded-lg text-white absolute top-32 right-[30%] sm:right-[3%] sm:top-16 md:right-[20%] flex flex-col items-center justify-center">
               <h1 className="text-2xl font-bold text-left ">
                 Hello , أهلا و سهلا
               </h1>
